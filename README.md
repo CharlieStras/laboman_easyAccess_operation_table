@@ -11,8 +11,9 @@
 |7|位置号|Rack Position|2||
 |8|仪器记录的时间|YYYYMMDDHHMMSS|14|仪器原始记录中的时间|
 |9|指令内容|Parameter|100|通讯程序发送给仪器的指令内容，<br>或LIS发送的指令内容，用"\\"分隔<br>如"CBC\\DIFF\\RET"|
-|10|归档指令|Storage instruction^<br>Work cycle|2^<br>1|CT90通讯程序发送的归档指令|
-|11|LIS短号|LIS No.|22||
+|10|归档指令|Storage instruction|2|CT90通讯程序发送的归档指令|
+|11|归档结果|Storage result|50|CT90通讯程序接收的归档结果，如:<br>FINAL^00^0377^OK^OK^OK<br>STORE-F^1^2^125^000171^124^1^OK|
+|12|LIS短号|LIS No.|22||
 ## 示例
 - 接收到CT90(无TS-10)的BT指令询问  
   20191208093420|              42000001|CT-90^B^01|00001|Q|000042|01|20191208093419|||42
