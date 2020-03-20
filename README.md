@@ -10,7 +10,7 @@
 |6|管架号|Rack No.|6||
 |7|位置号|Rack Position|2||
 |8|仪器记录的时间|YYYYMMDDHHMMSS|14|仪器原始记录中的时间|
-|9|检验指令|Order type^<br>Parameters|100|指令类别如下<br>"A": Laboman检验申请的指令<br>"D": 默认指令<br>"E": 默认管架指令<br>"L": LIS指令<br>"R": 3R指令<br>"S": 共享指令<br><br>各检验项目用"+"分隔，如"CBC+DIFF+RET"|
+|9|检验指令|Parameters^<br>Order type|100|指令类别如下<br>"A": Laboman检验申请的指令<br>"D": 默认指令<br>"E": 默认管架指令<br>"L": LIS指令<br>"R": 3R指令<br>"S": 共享指令<br><br>各检验项目用"+"分隔，如"CBC+DIFF+RET"|
 |10|归档指令|Archiving instruction|2|CT90通讯程序发送的归档指令|
 |11|归档结果|Archiving result|50|CT90通讯程序接收的归档结果，如:<br>FINAL^00^0377^OK^OK^OK<br>STORE-F^1^2^125^000171^124^1^OK|
 |12|归档原因|Archiving reason|100|Laboman依照TS-10区域设置判定的归档原因或者误码等导致CT-90自定归档区域的原因|
